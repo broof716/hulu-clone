@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/Header.css';
+import './Header.css';
 import HomeIcon from '@material-ui/icons/Home';
 import FlashOnIcon from '@material-ui/icons/FlashOn';
 import LiveTvIcon from '@material-ui/icons/LiveTv';
@@ -13,7 +13,7 @@ function Header() {
     <div className='header'>
       <div className="header__icons">
 
-        <div className="header__icon">
+        <div className="header__icon header__icon--active">
           <HomeIcon />
           <p>Home</p>
         </div>
