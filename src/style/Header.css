@@ -4,6 +4,7 @@
   padding: 20px;
   align-items: center;
   justify-content: space-between;
+  background-color: black;
   overflow-x: scroll;
 }
 
