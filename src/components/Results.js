@@ -6,6 +6,11 @@ function Results() {
   return (
     <div className="results">
       <VideoCard />
+      <VideoCard />
+      <VideoCard />
+      <VideoCard />
+      <VideoCard />
+      <VideoCard />
     </div>
   )
 }
